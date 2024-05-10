@@ -1,0 +1,46 @@
+*{
+
+    padding: 0%;
+}
+
+body{
+    background-color: f2e8cf;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 20% 0 20%;
+}
+
+.flex{
+    display: flex;
+}
+
+
+.header-bar{
+    height: 6rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.options{
+    align-items: flex-end;
+    gap: 2em;
+}
+
+.content{
+    flex-direction: column;
+}
+
+h1{
+    font-stretch: expanded;
+    color: #bc4749;
+}
+
+.hero{
+    justify-content: space-around;
+}
+
+li{
+    list-style-type: none;
+}
