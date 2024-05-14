@@ -3,11 +3,11 @@
 :root {
     --bg-color: #171616;
     --primary-color: #faf0ca;
-    --text-color: #432818;
-    --secondary-color: #d33418;
-    --accent-1: #1a1372;
-    --accent-2: #f4b931;
-    --accent-3: #0c913c;
+    --text-color: #000;
+    --secondary-color: #d75420;
+    --accent-1: #4f9f91;
+    --accent-2: #171616;
+    --accent-3: #e5b329;
     
 }
 
@@ -27,7 +27,7 @@ body{
     width: 100dvw;
     max-width: 800px;
     font-family: "Slabo 13px", serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
 }
 
@@ -36,12 +36,11 @@ body{
 }
 
 .header{
-    color: var(--secondary-color);
     padding: 1rem;
 }
 
 .title{
-    padding: 1rem 1.75rem;
+    color: var(--secondary-color);
 }
 
 .about > *, .hero {
@@ -75,6 +74,7 @@ ul, p{
 }
 
 .contact{
+    margin: 1rem;
     text-align: center;
     flex-direction: column;
 }
@@ -85,7 +85,7 @@ ul, p{
 }
 
 .skills-hobbies{
-    color: var(--accent-2);
+    color: var(--primary-color);
     background-color: var(--accent-1);
 }
 
@@ -102,7 +102,6 @@ ul, p{
 
 .card{
     color: var(--text-color);
-    border-radius: 15px;
     padding: 1.6rem;
     background-color: var(--primary-color);
 }
@@ -128,3 +127,19 @@ ul, p{
     border: 5px solid var(--accent-2);
 }
 
+.employment{
+    background-color: var(--secondary-color);
+}
+
+.highsec{
+    background-color: var(--accent-1);
+}
+
+.hey{
+    padding: 0.5rem 0.7rem;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    border-color: var(--secondary-color);
+    transform: rotate(-3deg);
+    /* transform: translate(-20px, -20px); */
+}
