@@ -103,7 +103,7 @@ ul, p{
 }
 
 .background > h1{
-    font-size: 64px;
+    font-size: 3rem;
     color: var(--primary-color);
     text-shadow: 6px 3px var(--secondary-color);
 }
