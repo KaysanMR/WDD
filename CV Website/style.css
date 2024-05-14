@@ -8,6 +8,8 @@
     --accent-1: #4f9f91;
     --accent-2: #171616;
     --accent-3: #e5b329;
+    --stripe-1: #202626;
+    --stripe-2: #1e2323;
     
 }
 
@@ -18,13 +20,19 @@
 
 html{
     background-color: var(--bg-color);
+    background: repeating-linear-gradient(
+  45deg,
+  var(--stripe-1),
+  var(--stripe-1) 30px,
+  var(--stripe-2) 30px,
+  var(--stripe-2) 60px
+);
 }
 
 body{
     margin: auto;
     background-color: var(--primary-color);
     color:  var(--text-color);
-    width: 100dvw;
     max-width: 800px;
     font-family: "Slabo 13px", serif;
     font-weight: 600;
@@ -74,13 +82,13 @@ ul, p{
 }
 
 .contact{
-    margin: 1rem;
+    margin-top: 1rem;
     text-align: center;
     flex-direction: column;
 }
 
 .grow:hover{
-    transform: scale(1.08);
+    transform: scale(1.08) rotate(5deg);
     transition: all 275ms ease-in-out
 }
 
