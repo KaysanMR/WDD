@@ -93,7 +93,7 @@ ul, p{
 }
 
 .skills-hobbies{
-    color: var(--primary-color);
+    color: var(--text-color);
     background-color: var(--accent-1);
 }
 
@@ -103,7 +103,7 @@ ul, p{
 }
 
 .background > h1{
-    font-size: 3rem;
+    font-size: calc(120% + 2vw);
     color: var(--primary-color);
     text-shadow: 6px 3px var(--secondary-color);
 }
